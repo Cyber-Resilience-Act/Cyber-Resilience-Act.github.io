@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CRA Direct | Cyber Resilience Act Operations</title>
+    <meta
+      name="description"
+      content="CRA Direct helps software manufacturers operationalize Cyber Resilience Act readiness with SBOM evidence, vulnerability triage, Article 14 workflows, human review, notifications, and audit trails."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">
+        <span class="brand-mark">CRA</span>
+        <span>
+          <strong>CRA Direct</strong>
+          <small>Cyber Resilience Act operations</small>
+        </span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#tools">Open tools</a>
+        <a href="#platform">Platform</a>
+        <a href="#pilot">Pilot</a>
+        <a class="nav-cta" href="mailto:contact@cra-direct.fr">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent open tooling by CRA Direct</p>
+          <h1>Operational tooling for Cyber Resilience Act readiness.</h1>
+          <p class="lead">
+            CRA Direct helps software manufacturers turn SBOMs, vulnerability intelligence, human review,
+            Article 14 deadlines, notifications, and audit evidence into a repeatable operating model.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/Cyber-Resilience-Act/cra-stateless-scanner-demo">Try the scanner</a>
+            <a class="button secondary" href="mailto:contact@cra-direct.fr?subject=CRA%20Direct%20pilot%20request">Request a pilot</a>
+          </div>
+          <p class="notice">
+            Not affiliated with, endorsed by, or operated by the European Union, ENISA, any CSIRT, or any market surveillance authority.
+          </p>
+        </div>
+        <div class="hero-panel" aria-label="CRA Direct workflow summary">
+          <div class="panel-row">
+            <span>1</span>
+            <p>Validate SBOM evidence for a product version</p>
+          </div>
+          <div class="panel-row">
+            <span>2</span>
+            <p>Scan components and enrich vulnerability findings</p>
+          </div>
+          <div class="panel-row">
+            <span>3</span>
+            <p>Review affectedness, VEX evidence, and Article 14 relevance</p>
+          </div>
+          <div class="panel-row">
+            <span>4</span>
+            <p>Preserve decisions, payloads, deadlines, and audit history</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="problem">
+        <div class="section-heading">
+          <p class="eyebrow">The operating gap</p>
+          <h2>CRA readiness is not only a checklist.</h2>
+        </div>
+        <div class="grid three">
+          <article>
+            <h3>Evidence</h3>
+            <p>Teams need product-version SBOM evidence, content hashes, retained files, and analysis history they can explain later.</p>
+          </article>
+          <article>
+            <h3>Workflow</h3>
+            <p>Article 14 operations require awareness timestamps, 24-hour and 72-hour stages, final-report triggers, and review gates.</p>
+          </article>
+          <article>
+            <h3>Accountability</h3>
+            <p>Scanner output is not enough. Reviewers and approvers need to preserve affectedness decisions, payloads, and audit trails.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section band" id="tools">
+        <div class="section-heading">
+          <p class="eyebrow">Open resources</p>
+          <h2>Start with practical tools.</h2>
+        </div>
+        <div class="repo-list">
+          <a class="repo" href="https://github.com/Cyber-Resilience-Act/cra-sbom-validator">
+            <strong>CRA SBOM Validator</strong>
+            <span>Offline CycloneDX and SPDX JSON validation for local development and CI.</span>
+          </a>
+          <a class="repo" href="https://github.com/Cyber-Resilience-Act/cra-stateless-scanner-demo">
+            <strong>Stateless Scanner Demo</strong>
+            <span>Try SBOM and PURL scanning without creating persistent product records.</span>
+          </a>
+          <a class="repo" href="https://github.com/Cyber-Resilience-Act/cra-api-examples">
+            <strong>CRA API Examples</strong>
+            <span>Integrate stateless scanning, SBOM upload, and workflow creation.</span>
+          </a>
+          <a class="repo" href="https://github.com/Cyber-Resilience-Act/cra-direct-docs">
+            <strong>CRA Direct Docs</strong>
+            <span>Read the public model for SBOM evidence, Article 14 workflows, HITL, and audit.</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="platform">
+        <div class="section-heading">
+          <p class="eyebrow">Hosted product</p>
+          <h2>From free tools to a system of record.</h2>
+        </div>
+        <div class="capabilities">
+          <div>
+            <h3>CRA Direct adds persistence</h3>
+            <ul>
+              <li>Product and version records</li>
+              <li>Locked SBOM evidence sets</li>
+              <li>Stored vulnerability and affectedness history</li>
+              <li>Review cases and approval transitions</li>
+            </ul>
+          </div>
+          <div>
+            <h3>CRA Direct adds operations</h3>
+            <ul>
+              <li>Article 14 vulnerability and incident workflows</li>
+              <li>24-hour, 72-hour, final, and intermediate deadlines</li>
+              <li>Notifications and failed-work visibility</li>
+              <li>Audit evidence and exportable history</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pilot" id="pilot">
+        <div>
+          <p class="eyebrow">Pilot offer</p>
+          <h2>Bring one product and one SBOM.</h2>
+          <p>
+            We can help you review whether your current process is ready for SBOM evidence retention,
+            vulnerability affectedness review, Article 14 workflow handling, and audit evidence.
+          </p>
+        </div>
+        <a class="button primary" href="mailto:contact@cra-direct.fr?subject=CRA%20Direct%20pilot%20request">Request a pilot</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>CRA Direct publishes independent Cyber Resilience Act readiness tools and implementation guidance.</p>
+      <p>
+        <a href="https://github.com/Cyber-Resilience-Act">GitHub</a>
+        <a href="mailto:contact@cra-direct.fr">contact@cra-direct.fr</a>
+      </p>
+    </footer>
+  </body>
+</html>
+
